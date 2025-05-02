@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  .content {
+    flex: 1; 
+  }
+  
+
+@import "./navbar.scss";
+@import "./home.scss";
+@import "./products.scss";
+@import "./product.scss";
+@import "./cart.scss";
+@import "./login.scss";
+@import "./register.scss";
+@import "./contact.scss";
+@import "./footer.scss";
+@import "./about.scss";

@@ -1,0 +1,89 @@
+/* Navbar.css */
+.navbar {
+    background: linear-gradient(90deg, #4b6cb7, #203b70);
+    padding: 15px 30px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;        
+    font-style: normal;
+      
+      
+    
+  }
+  .logo span{
+    color: #ffb700;
+  }
+  
+  .navbar-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-list ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-list ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar-list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-list ul li a:hover {
+    color: #ffc400;
+  }
+
+  .buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+   button{
+    border: none;
+    color: white;
+    background: #ffbb00;
+    border-radius: 10px;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    a{
+      text-decoration: none;
+    }
+    &:hover{
+        background: #ffae00;
+    }
+   }
+  }
+ 
+
+
+  .Line {
+    height: 2px;
+    background-color:#ffbb00;
+    margin: 4px auto 0;
+    transition: width 0.3s ease;
+  }
+  
+  

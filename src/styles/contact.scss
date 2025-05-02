@@ -1,0 +1,30 @@
+.contact{
+    min-height: 90vh;
+    color: #353535;
+    padding: 5rem 10rem;
+}
+
+.Title{
+    margin-bottom: 4rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.Hide{
+    overflow: hidden;
+}
+
+.Social{
+    display: flex;
+    align-items: center;
+    h2{
+        margin: 2rem;
+    }
+}
+
+.Circle{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background: #353535;
+}

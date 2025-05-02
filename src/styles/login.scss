@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fff6f1;
+  }
+  
+  .login-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-left {
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+  }
+  
+  .logo {
+    color: #ff7f50;
+    margin-bottom: 10px;
+    span{
+        color: #ffb700;
+    }
+  }
+  
+  .welcome-text {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .sign-in-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .login-form label {
+    font-size: 0.85rem;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .forgot-link {
+    text-align: right;
+    font-size: 0.8rem;
+    margin: 10px 0;
+  }
+  
+  .forgot-link a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  .login-btn {
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signup-text {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 20px;
+  }
+  
+  .signup-text a {
+    color: #ff7f50;
+    text-decoration: none;
+  }
+  
+  .login-right {
+    width: 50%;
+    background-color: #ffefe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      border-radius: 10px;
+    }
+  }
+  
+  .illustration {
+    width: 80%;
+    max-width: 400px;
+  }
+  

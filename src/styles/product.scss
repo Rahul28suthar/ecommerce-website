@@ -1,0 +1,109 @@
+.product {
+    padding: 4rem 2rem;
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f7fa;
+  }
+  
+  .product-container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .product-image {
+    flex: 1 1 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .product-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .product-description {
+    flex: 1 1 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .product-description h4 {
+    color: #ff6600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .product-description h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .product-description .rating {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .product-description h3 {
+    color: #e74c3c;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .product-description p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .add-to-cart {
+    background: linear-gradient(45deg, #ff9900, #ff6600);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .add-to-cart a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .add-to-cart:hover {
+    background: linear-gradient(45deg, #ff6600, #ff3300);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .product-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product-image,
+    .product-description {
+      flex: 1 1 100%;
+    }
+  }
+  
